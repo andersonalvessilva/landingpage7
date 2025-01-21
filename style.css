@@ -57,12 +57,22 @@ section{
     border: none;
     cursor: pointer;
 }
-.container{
-    height: 100%;
+#container{
+    height: 50vh;
     display: flex;
-    align-items: center;
     justify-content: center;
-    width: 6vw;
+    width:100vw;
+    
+}
+#form{
+    flex-direction: column;
+    background-color: orangered;
+    align-items: center;
+    display: flex;
+    width:40vw;
+    height: 50vh;
+    
+    
 }
 .container:hover{
     background-color: orangered;
@@ -70,6 +80,7 @@ section{
 #Banner {
     display: flex;
     width: 100vw;
+    height: 60vh;
 }
 #texts{
     position: absolute;
@@ -123,3 +134,23 @@ section{
 #search input::placeholder{
     padding-left: 1vw;
 }
+#text2{
+    width: 40vw;
+    height: 50vh;
+}
+#divisors{
+    display: flex;
+}
+#form input{
+    width: 20vw;
+    height: 5vh;
+}
+#form button{
+    width: 20vw;
+    height: 5vh;
+}
+#divisors span {
+  color: orangered;  
+}
+    
+
